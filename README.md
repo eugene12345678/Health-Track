@@ -32,27 +32,26 @@ This system enables doctors to manage health programs and client registrations, 
 
 - 🔗 [Frontend App](https://health-track-ashy.vercel.app/)
 
+
+- 🔗 [Loom](https://www.loom.com/share/bb9667120a27462f8ee8c018bc40ac24?sid=3334fa7c-1890-4cef-99b3-6283b34bfc53)
+
 # 📁 Project Structure
 ```pgsql
 Health-Track/
-├── backend/
+├── server/
 │   ├── prisma/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── types/
-│   │   └── index.ts
-│   ├── dist/
+│   ├── routes
+│   │  
+│   │      
+│   ├── index.js
 │   ├── package.json
 │   └── tsconfig.json
 │
 ├── frontend/
-│   ├── public/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
-│   │   ├── services/
+│   │   ├── context/
 │   │   ├── App.tsx
 │   │   └── index.tsx
 │   ├── package.json
