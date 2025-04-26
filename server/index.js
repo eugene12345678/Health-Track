@@ -18,3 +18,4 @@ export const prisma = new PrismaClient();
 // Routes
 app.use('/api/programs', programRoutes);
 app.use('/api/clients', clientRoutes);
+app.use('/api/enrollments', enrollmentRoutes);
