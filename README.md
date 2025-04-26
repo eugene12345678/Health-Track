@@ -1,3 +1,22 @@
-# 🏥 Health Information System - Backend
+# 🏥 Health Information System (Fullstack)
+A Fullstack Health Information System built with Node.js, Express, TypeScript, Prisma ORM, SQLite, and React.js for the frontend.
+This system enables doctors to manage health programs and client registrations, enroll clients in programs, search client profiles, and interact with the system through a clean UI.
 
-A RESTful backend API built using **Node.js**, **Express**, **TypeScript**, and **Prisma ORM** with a **SQLite** database. This system allows doctors to manage health programs and client registrations, enroll clients in programs, and expose client profiles via a secure API.
+# 📌 Features
+- ✅ Manage health programs (e.g., TB, HIV, Malaria)
+
+- ✅ Register new clients with age and gender
+
+- ✅ Enroll clients into multiple health programs
+
+- ✅ Search clients by name
+
+- ✅ View complete client profiles and enrollment history
+
+- ✅ RESTful API endpoints
+
+= ✅ Fullstack app with React frontend
+
+- ✅ Secure database operations
+
+- ✅ Live deployment on Render
