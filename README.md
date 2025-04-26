@@ -40,9 +40,7 @@ This system enables doctors to manage health programs and client registrations, 
 Health-Track/
 ├── server/
 │   ├── prisma/
-│   ├── routes
-│   │  
-│   │      
+│   ├── routes     
 │   ├── index.js
 │   ├── package.json
 │   └── tsconfig.json
