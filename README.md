@@ -95,3 +95,13 @@ npm run dev
 | GET        | `/api/clients/search?name={name}`        | Search client by name                   |
 | GET        | `/api/clients/:clientId`                 | View client profile                     |
 
+# 📊 Frontend Pages
+- **Home** — Overview of the app
+
+- **Programs** — View and create programs
+
+- **Clients** — List, search, register clients
+
+- **Enrollments** — Manage client enrollments
+
+- **Profile** — Detailed view of client profiles
