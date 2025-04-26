@@ -20,3 +20,9 @@ This system enables doctors to manage health programs and client registrations, 
 - ✅ Secure database operations
 
 - ✅ Live deployment on Render
+
+# 🛠 Tech Stack
+**Area**	**Technology**
+- **Backend**-Node.js, Express, TypeScript, Prisma ORM, SQLite
+- **Frontend**-React.js, TypeScript, Tailwind CSS 
+- **Deployment**-Render.com
