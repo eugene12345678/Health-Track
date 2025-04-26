@@ -119,3 +119,16 @@ npm run dev
 - Ready for JWT authentication (future upgrade)
 
 - Secure environment variables
+
+# 🧠 Possible Future Improvements
+- 🌍 Migrate from SQLite to PostgreSQL
+
+- 🔒 Add full authentication and authorization
+
+- 📄 Auto-generate API docs with Swagger/OpenAPI
+
+- 📈 Create admin dashboard
+
+- 🧪 Add full testing coverage
+
+- 🐳 Dockerize for scalable deployment
