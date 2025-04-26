@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
+// Create Prisma instance
 export const prisma = new PrismaClient();
 
 // Routes
@@ -21,10 +22,16 @@ app.use('/api/enrollments', enrollmentRoutes);
 
 // Health check route
 app.get('/', (req, res) => {
-    res.json({ message: 'HealthTrack API is running' });
-  });
+  res.json({ message: 'HealthTrack API is running' });
+});
 
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
-  
+// Start server
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
+// Handle shutdown gracefully
+process.on('SIGINT', async () => {
+  await prisma.$disconnect();
+  process.exit(0);
+});
