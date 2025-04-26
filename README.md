@@ -25,4 +25,9 @@ This system enables doctors to manage health programs and client registrations, 
 **Area**	**Technology**
 - **Backend**-Node.js, Express, TypeScript, Prisma ORM, SQLite
 - **Frontend**-React.js, TypeScript, Tailwind CSS 
-- **Deployment**-Render.com
+- **Deployment**-Render.com, Vercel.com
+
+# 🚀 Live URLs
+- 🔗 [Backend API](https://healthtrack-backend-1.onrender.com)
+
+- 🔗 [Frontend App](https://health-track-ashy.vercel.app/)
