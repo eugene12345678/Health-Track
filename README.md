@@ -84,3 +84,14 @@ npm run dev
 npm install
 npm run dev
 ```
+
+# 🔌 Important API Endpoints
+
+| **Method** | **Endpoint**                             | **Purpose**                              |
+|------------|------------------------------------------|------------------------------------------|
+| POST       | `/api/programs`                          | Create a new health program             |
+| POST       | `/api/clients`                           | Register a new client                   |
+| POST       | `/api/clients/:clientId/enroll`          | Enroll client in programs               |
+| GET        | `/api/clients/search?name={name}`        | Search client by name                   |
+| GET        | `/api/clients/:clientId`                 | View client profile                     |
+
