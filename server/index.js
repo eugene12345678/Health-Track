@@ -9,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 
+export const prisma = new PrismaClient();
 
 // Routes
 app.use('/api/programs', programRoutes);
