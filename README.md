@@ -132,3 +132,17 @@ npm run dev
 - 🧪 Add full testing coverage
 
 - 🐳 Dockerize for scalable deployment
+
+# 👤 Author
+
+| **Name**           | **Role**                            |
+|--------------------|-------------------------------------|
+| Eugene Mathenge    | Software Engineering Intern        |
+
+
+- [LinkedIn](https://www.linkedin.com/in/eugene-mathenge-981189262/)
+
+- [GitHub](https://github.com/eugene12345678)
+
+# 📝 License
+This project is licensed under the MIT License.
