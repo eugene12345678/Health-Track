@@ -23,4 +23,8 @@ app.use('/api/enrollments', enrollmentRoutes);
 app.get('/', (req, res) => {
     res.json({ message: 'HealthTrack API is running' });
   });
+
+  app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
   
