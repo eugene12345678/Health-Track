@@ -105,3 +105,17 @@ npm run dev
 - **Enrollments** — Manage client enrollments
 
 - **Profile** — Detailed view of client profiles
+
+# 🧪 Testing
+- Use **Postman**, **Thunder client** or **Insomnia** for backend API testing
+
+- Unit and integration tests can be added with **Jest** (backend) and **React Testing Library** (frontend)
+
+# 🔐 Security Considerations
+- Input validation for all backend endpoints
+
+- Error handling for database operations
+
+- Ready for JWT authentication (future upgrade)
+
+- Secure environment variables
