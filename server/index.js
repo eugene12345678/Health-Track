@@ -8,14 +8,15 @@ import enrollmentRoutes from './routes/enrollmentRoutes.js';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
 
-// Create Prisma instance
-export const prisma = new PrismaClient();
 
 // Routes
 app.use('/api/programs', programRoutes);
 app.use('/api/clients', clientRoutes);
 app.use('/api/enrollments', enrollmentRoutes);
+
+// Health check route
+app.get('/', (req, res) => {
+    res.json({ message: 'HealthTrack API is running' });
+  });
+  
